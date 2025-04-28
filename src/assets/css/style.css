@@ -68,6 +68,7 @@ header, nav, main, footer{
 .navbar-social-icon{
   font-size: 30px;
   cursor: pointer;
+  color: white;
 }
 
 .navbar-social-icon:hover{
