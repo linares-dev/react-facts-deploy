@@ -1,15 +1,12 @@
-import React from "react";
-
 export default function Main(){
-  return (
+  return(
     <main>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100K stars on GitHub</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      <ul className="react-facts">
+        <li>React is a Javascript library that is well supported by a large community of users</li>
+        <li>React started in 2003</li>
+        <li>React has JSX a sugar syntax for javascript</li>
+        <li>React is components driven</li>
       </ul>
     </main>
-  );
+  )
 }
